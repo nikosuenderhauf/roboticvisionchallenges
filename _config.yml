@@ -5,7 +5,7 @@ google_analytics:
 theme: jekyll-theme-cayman
 
 
-baseurl:      "/"
+baseurl:      "/roboticvisionchallenges"
 paginate:     1
 locale:       "en"
 
