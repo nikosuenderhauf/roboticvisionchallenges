@@ -1,6 +1,7 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
+@import "_images.scss";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 @mixin large {
@@ -144,7 +145,7 @@ a {
 .main-content {
   word-wrap: break-word;
   text-align: justify;
-  
+
   :first-child {
     margin-top: 0;
   }
@@ -339,7 +340,8 @@ a {
 
 .site-footer-owner {
   display: block;
-  font-weight: bold;
+  font-size: 10;
+  // font-weight: bold;
 }
 
 .site-footer-credits {

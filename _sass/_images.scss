@@ -1,0 +1,87 @@
+$img_spacing: 5px;
+$img-height: 275px;
+$img-height-large: 500px;
+$caption-font-size: 12px;
+$caption-color: #aaa;
+$small-font-size:  0.875rem !default;
+
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+.img_row {
+    height: $img-height;
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.portrait_row {
+    width: 100%;    
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.img_row_large {
+    height: $img-height-large;
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.col {
+    width: 100%;
+    height: 100%;
+    float: left;
+    object-fit: contain;
+    box-sizing:border-box;
+    padding: $img-spacing;
+}
+.one {
+    width:33.33%;
+}
+
+.two {
+    width: 66.66%;
+}
+.three {
+    width: 100%;
+}
+
+.half {
+    width:50%;
+}
+
+.fith {
+    width:20%;
+}
+
+.paper_thumb {
+  width:30%;
+  float: left;
+  object-fit: contain;
+  box-sizing:border-box;
+  padding: 10px;
+}
+
+.caption {
+    height: 100%;
+    color: $caption-color;
+    text-align: center;
+    vertical-align: middle;
+    font-size: $caption-font-size;
+    float: left;
+}
+
+.portrait {
+  // object-fit: contain;
+  // box-sizing:border-box;
+  border-radius: 100%;
+}
+
+.pad10 {
+  padding: 10px;
+}

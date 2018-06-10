@@ -1,5 +1,5 @@
-title: The Robotic Vision Learning and Understanding Challenges
-description: Benchmarking Scene Understanding, and Active & Continuous Learning
+title: The Robotic Vision Challenge
+description: Benchmarking Scene Understanding, and Active & Continuous Learning for Robotic Vision
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
@@ -12,7 +12,7 @@ locale:       "en"
 # About/contact
 author:
   name:       Niko Sünderhauf
-  url:        http://www.roboticvisionchallenges.net
+  url:        http://www.roboticvisionchallenge.org
 
 # Gems
 gems:
