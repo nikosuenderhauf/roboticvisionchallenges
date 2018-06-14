@@ -2,8 +2,10 @@
 layout: default
 ---
 
-## Introduction – What is the Robotic Vision Challenge?
-We develop a set of new benchmark challenges for robotic vision that evaluate:
+## Introduction
+Big benchmark challenges like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) fuelled much of the remarkable progress in computer vision and deep learning over the past years. We aim to recreate this success story for robotic vision.
+
+We develop a set of new benchmark challenges specifically for robotic vision that evaluate:
    * scene understanding,
    * uncertainty estimation,
    * continuous learning for domain adaptation,
@@ -30,7 +32,7 @@ Expect the challenges to go live around **November 2018**.
 Big computer vision challenges and competitions like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) had a significant influence on the advancements in object recognition, object detection, semantic segmentation, image captioning, and visual question answering in recent years. These challenges posed motivating problems to the research community and proposed datasets and evaluation metrics that allowed to compare different approaches in a standardized way.
 
 However, visual perception for robotics faces challenges that are not well covered or evaluated by the existing benchmarks.
-These challenges comprise: calibrated uncertainty estimation, continuous learning for domain adaptation and incorporation of novel classes, active learning, and active vision.
+These challenges comprise calibrated uncertainty estimation, continuous learning for domain adaptation and incorporation of novel classes, active learning, and active vision.
 
 There is currently a lack of meaningful standardised evaluation protocols and benchmarks for these research challenges. This is a significant roadblock for the evolution of robotic vision, and impedes reproducible and comparable research.
 
@@ -54,7 +56,7 @@ We believe that by posing a new robotic vision challenge to the research communi
       <a href="http://www.nikosuenderhauf.info">Niko Sünderhauf</a><br>Queensland University of Technology
 </div>
 <div class="col fith caption">
-      Feras Dayoub <br>Queensland University of Technology
+      <a href="http://www.ferasdayoub.com">Feras Dayoub</a> <br>Queensland University of Technology
 </div>
 <div class="col fith caption">
       David Hall <br>Queensland University of Technology
@@ -78,12 +80,13 @@ We thank the following supporters for their valuable input and engaging discussi
 <div class="portrait_row">
 <img class="col fith portrait" src="assets/img/anton.jpg"/>  
 <img class="col fith portrait" src="assets/img/gustavo.jpg"/>  
+<img class="col fith portrait" src="assets/img/anelia.png"/>  
 </div>
 <div class="col fith caption">
-      Anton van den Hengel <br> University of Adelaide
+      <a href="https://cs.adelaide.edu.au/users/hengel/">Anton van den Hengel</a> <br> University of Adelaide
 </div>
 <div class="col fith caption">
-      Gustavo Carneiro <br> University of Adelaide
+      <a href="https://cs.adelaide.edu.au/~carneiro/">Gustavo Carneiro</a> <br> University of Adelaide
 </div>
 <div class="col fith caption">
       <a href="https://ai.google/research/people/AneliaAngelova">Anelia Angelova</a> <br> Google Brain
