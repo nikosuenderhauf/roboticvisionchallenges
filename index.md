@@ -3,19 +3,22 @@ layout: default
 ---
 
 ## Introduction
-Big benchmark challenges like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) fuelled much of the remarkable progress in computer vision and deep learning over the past years. We aim to recreate this success story for robotic vision.
+>Big benchmark challenges like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) supported much of the remarkable progress in computer vision and deep learning over the past years.
+>
+>We aim to recreate this success for robotic vision.
 
-We develop a set of new benchmark challenges specifically for robotic vision that evaluate:
+We develop a set of new benchmark challenges specifically for robotic vision, and evaluate:
    * scene understanding,
    * uncertainty estimation,
    * continuous learning for domain adaptation,
    * continuous learning to incorporate previuosly unseen classes,
-   * active learning, and
-   * active vision.
+   * active learning,
+   * active vision, and eventually
+   * complex tasks requiring a combination of scene understanding, learning, navigation, and interaction with the environment.
 
 We combine the variety and complexity of real-world data with the flexibility of synthetic graphics and physics engines.
 
-Expect the challenges to go live around **November 2018**.
+Expect the first challenges to go live around **November 2018**.
 
 
 
