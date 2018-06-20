@@ -2,6 +2,9 @@
 layout: default
 ---
 
+**[Quick Link to the CVPR Workshop on Real World Challenges and New Benchmarks for Deep Learning in Robotic Vision](https://sites.google.com/view/cvpr2018-robotic-vision)**
+
+
 ## Introduction – What is the Robotic Vision Challenge?
 We develop a set of new benchmark challenges for robotic vision that evaluate:
    * scene understanding,
