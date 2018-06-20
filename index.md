@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+**[Quick Link to the CVPR Workshop on Real World Challenges and New Benchmarks for Deep Learning in Robotic Vision](https://sites.google.com/view/cvpr2018-robotic-vision)**
 
 ## Introduction
 >Big benchmark challenges like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) supported much of the remarkable progress in computer vision and deep learning over the past years.
@@ -8,7 +9,6 @@ layout: default
 >We aim to recreate this success for robotic vision.
 
 We develop a set of new benchmark challenges specifically for robotic vision, and evaluate:
-**[Quick Link to the CVPR Workshop on Real World Challenges and New Benchmarks for Deep Learning in Robotic Vision](https://sites.google.com/view/cvpr2018-robotic-vision)**
    * scene understanding,
    * uncertainty estimation,
    * continuous learning for domain adaptation,
