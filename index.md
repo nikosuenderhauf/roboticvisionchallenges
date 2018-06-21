@@ -29,8 +29,7 @@ Expect the first challenges to go live around **November 2018**.
   **June 2018:** We organise two workshops at CVPR and RSS. Meet us at the workshop on [Real-World Challenges and New Benchmarks for Deep Learning in Robotic Vision](https://sites.google.com/view/cvpr2018-robotic-vision) at CVPR in Salt Lake City, and at the workshop on
  [New Benchmarks, Metrics, and Competitions for Robotic Learning](https://sites.google.com/view/rss2018-robotic-learning/home) at RSS in Pittsburgh.
 
-
-
+ **Stay in touch** and follow us on Twitter for news and announcements: [@robVisChallenge](https://twitter.com/robVisChallenge).
 
 ## Motivation
 Big computer vision challenges and competitions like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) had a significant influence on the advancements in object recognition, object detection, semantic segmentation, image captioning, and visual question answering in recent years. These challenges posed motivating problems to the research community and proposed datasets and evaluation metrics that allowed to compare different approaches in a standardized way.
@@ -49,6 +48,7 @@ We believe that by posing a new robotic vision challenge to the research communi
 
 ## Organisers, Support, and Acknowledgements
 
+**Stay in touch** and follow us on Twitter for news and announcements: [@robVisChallenge](https://twitter.com/robVisChallenge).
 
 <div class="portrait_row">
 <img class="col fith portrait" src="assets/img/niko.jpg"/>  
