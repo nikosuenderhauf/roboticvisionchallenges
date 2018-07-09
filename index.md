@@ -62,7 +62,7 @@ We believe that by posing a new robotic vision challenge to the research communi
       <a href="http://www.ferasdayoub.com">Feras Dayoub</a> <br>Queensland University of Technology
 </div>
 <div class="col fith caption">
-      David Hall <br>Queensland University of Technology
+      <a href="https://sites.google.com/view/davidhallcv/home">David Hall</a> <br>Queensland University of Technology
 </div>
 <div class="col fith caption">
       John Skinner <br>Queensland University of Technology
