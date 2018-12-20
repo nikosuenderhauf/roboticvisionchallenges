@@ -10,20 +10,49 @@ layout: default
 We develop a set of new benchmark challenges specifically for robotic vision, and evaluate:
    * scene understanding,
    * uncertainty estimation,
-   * continuous learning for domain adaptation,
-   * continuous learning to incorporate previuosly unseen classes,
+   * continuous learning for domain adaptation, and to incorporate previuosly unseen classes,
    * active learning,
    * active vision, and eventually
    * complex tasks requiring a combination of scene understanding, learning, navigation, and interaction with the environment.
 
 We combine the variety and complexity of real-world data with the flexibility of synthetic graphics and physics engines.
 
+<!--
 Expect the first challenges to go live around **November 2018**.
 
+https://competitions.codalab.org/competitions/20940 -->
 
+
+## Active Challenges
+
+### Probabilistic Object Detection Challenge
+
+Our first challenge requires participants to **detect objects in video** data (from high-fidelity simulation). As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
+We developed a new [probability-based detection quality (PDQ)](https://arxiv.org/abs/1811.10800) evaluation measure for this challenge, please see the arxiv paper for more details.
+
+To **participate** and for more information around the data and submission format, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940).
+
+#### Example Data
+For this challenge, we use simulated data and vary both the lighting conditions (day and night), as well as the camera height (to simulate domestic service robots of different size).
+![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png)
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TZbEManAy-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ISVkUqxk-sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<!--
+ We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
+
+## Coming Soon ...
+
+Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2019.
 
 
 ## News
+
+  **December 2018:** We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940), requiring object detection on video data and rewarding accurate estimates of spatial and semantic uncertainty.
 
   **June 2018:** We presented our initial ideas for new benchmarks and metrics at two workshops during CVPR and RSS. Thanks to all who engaged in discussions and shared their thoughts during the workshops on [Real-World Challenges and New Benchmarks for Deep Learning in Robotic Vision](https://sites.google.com/view/cvpr2018-robotic-vision) at CVPR, and
  [New Benchmarks, Metrics, and Competitions for Robotic Learning](https://sites.google.com/view/rss2018-robotic-learning/home) at RSS.
