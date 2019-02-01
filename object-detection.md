@@ -19,13 +19,32 @@ We invite anyone who is interested in object detection and appreciates a good ch
 </center>
 
 
-## Participate
-Please head to our [Codalab page](https://competitions.codalab.org/competitions/20940) to participate, and further information around the dataset and submission format.
+## Participation and Presentation of Results
+Please head to our [Codalab page](https://competitions.codalab.org/competitions/20940) to participate, download the training/validation and test dataset, and find out further information around the dataset and submission format.
+
+<img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;">
+We are organising a [workshop at CVPR 2019](cvpr2019) in June. Participants can present their results and we will announce the challenge winners.
+
+
+
+<!-- ![](assets/img/longbeach.png) -->
 
 
 ## Example Data
 For this challenge, we use simulated data and vary both the lighting conditions (day and night), as well as the camera height (to simulate domestic service robots of different size).
 ![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png)
+
+The dataset uses a subset of the Microsoft COCO classes:  
+``['bottle', 'cup', 'knife', 'bowl', 'wine glass', 'fork', 'spoon', 'banana', 'apple', 'orange', 'cake', 'potted plant', 'mouse', 'keyboard', 'laptop', 'cell phone', 'book', 'clock', 'chair', 'dining table', 'couch', 'bed', 'toilet', 'television', 'microwave', 'toaster', 'refrigerator', 'oven', 'sink', 'person']``
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EffaE3pJyx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<div class="col three caption">
+      Training scene with labeled objects.
+</div>
+
+
 
 
 ## New Evaluation Measure - PDQ

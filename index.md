@@ -31,6 +31,8 @@ Our first challenge requires participants to **detect objects in video** data fr
 
 To **participate** and for more information around the data and submission format, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940).
 
+<img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> The **winners** of the competition will be announced at our [workshop at CVPR 2019](cvpr2019) in Long Beach in June 2019.
+
 
 <center>
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
