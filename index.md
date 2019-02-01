@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Introduction
+# Introduction
 >Big benchmark challenges like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) supported much of the remarkable progress in computer vision and deep learning over the past years.
 >
 >We aim to recreate this success for robotic vision.
@@ -23,34 +23,31 @@ Expect the first challenges to go live around **November 2018**.
 https://competitions.codalab.org/competitions/20940 -->
 
 
-## Active Challenges
+<!-- ## Active Challenges -->
 
-### Probabilistic Object Detection Challenge
+# First Challenge - Probabilistic Object Detection
 
-Our first challenge requires participants to **detect objects in video** data (from high-fidelity simulation). As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
-We developed a new [probability-based detection quality (PDQ)](https://arxiv.org/abs/1811.10800) evaluation measure for this challenge, please see the arxiv paper for more details.
+Our first challenge requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. [Read more ...](object-detection).
 
 To **participate** and for more information around the data and submission format, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940).
 
-#### Example Data
-For this challenge, we use simulated data and vary both the lighting conditions (day and night), as well as the camera height (to simulate domestic service robots of different size).
-![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png)
 
 <center>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TZbEManAy-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ISVkUqxk-sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</center> -->
 
 <!--
  We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
 
-## Coming Soon ...
+# News
 
-Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2019.
-
-
-## News
+  **January 2019:** We are happy to announce that CVPR 2019 is hosting our [workshop](cvpr2019). Participants of our Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940) will present their approaches and results, and we will announce the competition winners at the workshop.
 
   **December 2018:** We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940), requiring object detection on video data and rewarding accurate estimates of spatial and semantic uncertainty.
 
@@ -59,7 +56,14 @@ Stay tuned for more challenges, focussing on active vision, and active and conti
 
  **Stay in touch** and follow us on Twitter for news and announcements: [@robVisChallenge](https://twitter.com/robVisChallenge).
 
-## Motivation
+
+
+# Coming Soon
+
+Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2019.
+
+
+# Motivation
 Big computer vision challenges and competitions like [ILSVRC](http://www.image-net.org/challenges/LSVRC/) or [COCO](http://cocodataset.org) had a significant influence on the advancements in object recognition, object detection, semantic segmentation, image captioning, and visual question answering in recent years. These challenges posed motivating problems to the research community and proposed datasets and evaluation metrics that allowed to compare different approaches in a standardized way.
 
 However, visual perception for robotics faces challenges that are not well covered or evaluated by the existing benchmarks.
@@ -74,7 +78,7 @@ We believe that by posing a new robotic vision challenge to the research communi
 
 <!-- [principles](principles) -->
 
-## Organisers, Support, and Acknowledgements
+# Organisers, Support, and Acknowledgements
 
 **Stay in touch** and follow us on Twitter for news and announcements: [@robVisChallenge](https://twitter.com/robVisChallenge).
 
@@ -107,7 +111,7 @@ This project is supported by a **Google Faculty Research Award** to Niko Sünder
 <img style="margin-left:100px; height:100px" src="assets/img/google-logo.png">
 </div>
 
-### Supporters
+## Supporters
 We thank the following supporters for their valuable input and engaging discussions.
 <div class="portrait_row">
 <img class="col fith portrait" src="assets/img/anton.jpg"/>  
