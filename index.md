@@ -89,6 +89,7 @@ We believe that by posing a new robotic vision challenge to the research communi
 <img class="col fith portrait" src="assets/img/feras.jpg"/>
 <img class="col fith portrait" src="assets/img/david.jpg"/>
 <img class="col fith portrait" src="assets/img/john.jpg"/>
+<img class="col fith portrait" src="assets/img/haoyang.jpg"/>
 </div>
 <div class="col fith caption">
       <a href="http://www.nikosuenderhauf.info">Niko Sünderhauf</a><br>Queensland University of Technology
@@ -101,6 +102,9 @@ We believe that by posing a new robotic vision challenge to the research communi
 </div>
 <div class="col fith caption">
       John Skinner <br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      <a href="https://staff.qut.edu.au/staff/haoyang.zhang.acrv">Haoyang Zhang</a> <br>Queensland University of Technology
 </div>
 
 <br><br>
@@ -116,17 +120,17 @@ This project is supported by a **Google Faculty Research Award** to Niko Sünder
 ## Supporters
 We thank the following supporters for their valuable input and engaging discussions.
 <div class="portrait_row">
-<img class="col fith portrait" src="assets/img/anton.jpg"/>  
 <img class="col fith portrait" src="assets/img/gustavo.jpg"/>  
 <img class="col fith portrait" src="assets/img/anelia.png"/>  
-</div>
-<div class="col fith caption">
-      <a href="https://cs.adelaide.edu.au/users/hengel/">Anton van den Hengel</a> <br> University of Adelaide
+<img class="col fith portrait" src="assets/img/anton.jpg"/>  
 </div>
 <div class="col fith caption">
       <a href="https://cs.adelaide.edu.au/~carneiro/">Gustavo Carneiro</a> <br> University of Adelaide
 </div>
 <div class="col fith caption">
       <a href="https://ai.google/research/people/AneliaAngelova">Anelia Angelova</a> <br> Google Brain
+</div>
+<div class="col fith caption">
+      <a href="https://cs.adelaide.edu.au/users/hengel/">Anton van den Hengel</a> <br> University of Adelaide
 </div>
 <br><br>
