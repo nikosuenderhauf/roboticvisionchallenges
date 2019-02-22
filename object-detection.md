@@ -21,7 +21,7 @@ We invite anyone who is interested in object detection and appreciates a good ch
 
 ## Participation and Presentation of Results
 We maintain two evaluation servers on [Codalab](http://www.codalab.org):
-   * An **ongoing evaluation** server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions.
+   * An **ongoing evaluation** server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset (coming soon).
    * A **competition evaluation** server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
 
@@ -68,21 +68,29 @@ Failing to do so can lead to catastrophic consequences from over or under-confid
 ## Dataset
 For this challenge, we use realistic simulated data from a domestic robot scenario. The dataset contains scenes with cluttered surfaces, and day and night lighting conditions. We simulate domestic service robots of multiple sizes, resulting in sequences with three different camera heights above the ground plane.
 
-![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png)
+
+We maintain three dataset splits:
+   * The **test-challenge** dataset is used on the [competition evaluation server](https://competitions.codalab.org/competitions/20940) and only available during open competition phases. It contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB.
+   * The **test-dev** dataset (coming soon) will be available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/21727) and can be used to benchmark approaches year-round, e.g. for use in publications. It will contain different scenes from the test-challenge and validation dataset.
+   * The **validation** dataset is available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/21727), and contains over 21,000 images in 4 simulated indoor video sequences, approximately 8.8GB. Ground truth information is available for this dataset. It uses the same classes as the test datasets, but different *object models*.
 
 
-The test-challenge dataset (used for the competition server) contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB. The test-val dataset (used on the ongoing evaluation server) contains over 21,000 images in 4 simulated indoor video sequences, approximately 8.8GB.
 
-Both datasets use a subset of the Microsoft COCO classes:  
+
+
+All datasets use the same subset of the Microsoft COCO classes:  
 ``['bottle', 'cup', 'knife', 'bowl', 'wine glass', 'fork', 'spoon', 'banana', 'apple', 'orange', 'cake', 'potted plant', 'mouse', 'keyboard', 'laptop', 'cell phone', 'book', 'clock', 'chair', 'dining table', 'couch', 'bed', 'toilet', 'television', 'microwave', 'toaster', 'refrigerator', 'oven', 'sink', 'person']``
+
+
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EffaE3pJyx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <div class="col three caption">
-      Training scene with labeled objects.
+      Scenes from the validation dataset with labeled objects.
 </div>
 
+<!-- ![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png) -->
 
 
 
