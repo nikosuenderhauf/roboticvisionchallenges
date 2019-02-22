@@ -27,11 +27,26 @@ https://competitions.codalab.org/competitions/20940 -->
 
 # First Challenge - Probabilistic Object Detection
 
-Our first challenge requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. [Read more ...](object-detection).
+Our [probabilistic object detection challenge](object-detection) requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
 
-To **participate** and for more information around the data and submission format, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940).
+A *test-challenge* and *validation* dataset are already available along with evaluation servers. A separate *test-dev* dataset along with a public leaderboard will be made available soon and can then be used for ongoing evaluation of probabilistic object detection approaches.
 
-<img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> The **winners** of the competition will be announced at our [workshop at CVPR 2019](cvpr2019) in Long Beach in June 2019.
+<img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> We organise a competition and [workshop at CVPR 2019](cvpr2019) in June 2019, where the best submissions will be presented and $5000 AUD in prize money will be available to the winning entries.
+
+To **participate** and for more information around the dataset [read more here ...](object-detection).
+
+
+
+<!-- We provide a new dataset (split into *test-challenge*, *test-dev*, and *validation*), evaluation measure, and evaluation servers.
+
+ We organise a competition and [workshop at CVPR 2019](cvpr2019) in Long Beach in June 2019
+
+The **winners** of the competition will be announced at our .
+
+
+
+, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940). -->
+
 
 
 <center>
