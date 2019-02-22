@@ -20,21 +20,60 @@ We invite anyone who is interested in object detection and appreciates a good ch
 
 
 ## Participation and Presentation of Results
-Please head to our [Codalab page](https://competitions.codalab.org/competitions/20940) to participate, download the training/validation and test dataset, and find out further information around the dataset and submission format.
+We maintain two evaluation servers on [Codalab](http://www.codalab.org):
+   * An **ongoing evaluation** server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions.
+   * A **competition evaluation** server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
+
+
+### CVPR 2019 Competition Evaluation Server
 <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;">
-We are organising a [workshop at CVPR 2019](cvpr2019) in June. Participants can present their results and we will announce the challenge winners.
+We are organising a competition and [workshop at CVPR 2019](cvpr2019) in June. Participants can present their results and we will announce the challenge winners, distributing $5000 AUD in prize money (sponsored by the [Australian Centre for Robotic Vision](http://www.roboticvision.org)). Please head to our [competition evaluation server](https://competitions.codalab.org/competitions/20940) to participate, download the training/validation and test dataset, and find out further information around the dataset and submission format.
+
+
+### Ongoing Evaluation Server
+We maintain an ongoing [evaluation server](https://competitions.codalab.org/competitions/21727) with a public leaderboard that can be used year-round to benchmark your approach for probabilistic object detection.
+
+
+## How to Cite
+When using the dataset and evaluation in your publications, please cite:
+
+```latex
+@article{hall2018probability,
+  title={{Probability-based Detection Quality (PDQ): A Probabilistic Approach to Detection Evaluation}},
+  author={Hall, David and Dayoub, Feras and Skinner, John and Corke, Peter and Carneiro, Gustavo and S{\"u}nderhauf, Niko},
+  journal={arXiv preprint arXiv:1811.10800},
+  year={2018}
+}
+```
 
 
 
 <!-- ![](assets/img/longbeach.png) -->
 
+## What is Probabilistic Object Detection?
+For robotics applications, detections must not just provide information about *where* and *what* an object is, but must also provide a measure of **spatial and semantic uncertainty**.
+Failing to do so can lead to catastrophic consequences from over or under-confident detections.
 
-## Example Data
-For this challenge, we use simulated data and vary both the lighting conditions (day and night), as well as the camera height (to simulate domestic service robots of different size).
+**Semantic uncertainty** can be provided as a categorical distribution over labels. **Spatial uncertainty** in the context of object detection can be expressed by augmenting the commonly used bounding box format with covariances for their corner points. That is, a bounding box is represented as two Gaussian distributions. See below for an illustration.
+
+<div class="img_row">
+<img class="col half" src="assets/img/merged_gaussian_corners.png"/>  
+<img class="col half" src="assets/img/merged_heatmap.png"/>  
+</div>
+<div class="col three caption">
+      Left: Probabilistic object detections provide bounding box corners as Gaussians (corner point with covariance). Right: This results in a per-pixel probability of belonging to the detected object. Our evaluation takes this spatial uncertainty into account.
+</div>
+
+## Dataset
+For this challenge, we use realistic simulated data from a domestic robot scenario. The dataset contains scenes with cluttered surfaces, and day and night lighting conditions. We simulate domestic service robots of multiple sizes, resulting in sequences with three different camera heights above the ground plane.
+
 ![](https://c1.staticflickr.com/5/4852/46183850271_764bcaac56_o.png)
 
-The dataset uses a subset of the Microsoft COCO classes:  
+
+The test-challenge dataset (used for the competition server) contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB. The test-val dataset (used on the ongoing evaluation server) contains over 21,000 images in 4 simulated indoor video sequences, approximately 8.8GB.
+
+Both datasets use a subset of the Microsoft COCO classes:  
 ``['bottle', 'cup', 'knife', 'bowl', 'wine glass', 'fork', 'spoon', 'banana', 'apple', 'orange', 'cake', 'potted plant', 'mouse', 'keyboard', 'laptop', 'cell phone', 'book', 'clock', 'chair', 'dining table', 'couch', 'bed', 'toilet', 'television', 'microwave', 'toaster', 'refrigerator', 'oven', 'sink', 'person']``
 
 <center>
@@ -70,6 +109,6 @@ evaluates both spatial and label probabilities, requires no
 thresholds to be predefined, and optimally assigns groundtruth
 objects to detections.
 
-Our [experimental evaluation]([arxiv paper](https://arxiv.org/abs/1811.10800)) shows that PDQ rewards detections with accurate spatial probabilities and explicitly evaluates label probability to determine detection quality. PDQ aims to encourage the
+Our [experimental evaluation](https://arxiv.org/abs/1811.10800) shows that PDQ rewards detections with accurate spatial probabilities and explicitly evaluates label probability to determine detection quality. PDQ aims to encourage the
 development of new object detection approaches that provide
 meaningful spatial and label uncertainty measures.
