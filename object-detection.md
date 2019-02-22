@@ -69,6 +69,7 @@ Failing to do so can lead to catastrophic consequences from over or under-confid
 For this challenge, we use realistic simulated data from a domestic robot scenario. The dataset contains scenes with cluttered surfaces, and day and night lighting conditions. We simulate domestic service robots of multiple sizes, resulting in sequences with three different camera heights above the ground plane.
 
 
+
 We maintain three dataset splits:
    * The **test-challenge** dataset is used on the [competition evaluation server](https://competitions.codalab.org/competitions/20940) and only available during open competition phases. It contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB.
    * The **test-dev** dataset (coming soon) will be available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/21727) and can be used to benchmark approaches year-round, e.g. for use in publications. It will contain different scenes from the test-challenge and validation dataset.
@@ -76,11 +77,20 @@ We maintain three dataset splits:
 
 
 
-
-
 All datasets use the same subset of the Microsoft COCO classes:  
 ``['bottle', 'cup', 'knife', 'bowl', 'wine glass', 'fork', 'spoon', 'banana', 'apple', 'orange', 'cake', 'potted plant', 'mouse', 'keyboard', 'laptop', 'cell phone', 'book', 'clock', 'chair', 'dining table', 'couch', 'bed', 'toilet', 'television', 'microwave', 'toaster', 'refrigerator', 'oven', 'sink', 'person']``
 
+<div class="img_row_fit">
+<img class="col one" src="assets/img/scenes/pic-1.png"/>  
+<img class="col one" src="assets/img/scenes/pic-2.png"/>  
+<img class="col one" src="assets/img/scenes/pic-3.png"/>
+<img class="col one" src="assets/img/scenes/pic-4.png"/>  
+<img class="col one" src="assets/img/scenes/pic-5.png"/>  
+<img class="col one" src="assets/img/scenes/pic-6.png"/>  
+</div>
+<div class="col three caption">
+      Example scenes from the dataset.
+</div>
 
 
 <center>

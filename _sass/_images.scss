@@ -1,5 +1,6 @@
 $img_spacing: 5px;
 $img-height: 275px;
+$img-height-small: 550px;
 $img-height-large: 500px;
 $caption-font-size: 12px;
 $caption-color: #aaa;
@@ -20,8 +21,15 @@ figcaption {
     box-sizing:border-box;
 }
 
+.img_row_fit {
+    // height: $img-height;
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
 .portrait_row {
-    width: 100%;    
+    width: 100%;
     overflow: hidden;
     box-sizing:border-box;
 }
@@ -40,6 +48,7 @@ figcaption {
     box-sizing:border-box;
     padding: $img-spacing;
 }
+
 .one {
     width:33.33%;
 }
