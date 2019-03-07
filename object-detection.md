@@ -21,8 +21,8 @@ We invite anyone who is interested in object detection and appreciates a good ch
 
 ## Participation and Presentation of Results
 We maintain two evaluation servers on [Codalab](http://www.codalab.org):
-   * An **ongoing evaluation** server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset (coming soon).
-   * A **competition evaluation** server that will only be available before competitions we organise at major computer vision and robotics conferences.
+   * An [**ongoing evaluation**](https://competitions.codalab.org/competitions/21727) server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset (coming soon).
+   * A [**competition evaluation**](https://competitions.codalab.org/competitions/20940) server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
 
 
@@ -40,7 +40,7 @@ When using the dataset and evaluation in your publications, please cite:
 
 ```latex
 @article{hall2018probability,
-  title={{Probability-based Detection Quality (PDQ): A Probabilistic Approach to Detection Evaluation}},
+  title={Probability-based Detection Quality (PDQ): A Probabilistic Approach to Detection Evaluation},
   author={Hall, David and Dayoub, Feras and Skinner, John and Corke, Peter and Carneiro, Gustavo and S{\"u}nderhauf, Niko},
   journal={arXiv preprint arXiv:1811.10800},
   year={2018}
