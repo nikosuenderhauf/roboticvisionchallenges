@@ -30,13 +30,13 @@ We maintain two evaluation servers on [Codalab](http://www.codalab.org):
 
 
 ### IROS 2019 Competition Evaluation Server
- <img src="assets/img/logo-IROS-2019.png" width="200" style="float:left; margin-right:10px;">
+ <img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;">
  We organise a workshop at IROS 2019 (8 November) on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details. We expect the evaluation server to re-open in September 2019 and close in late October. In the meanwhile, you can use our [ongoing evaluation](https://competitions.codalab.org/competitions/21727) server along with the available validation and test-dev datasets to improve your algorithms.
 
 
 ### CVPR 2019 Competition Evaluation Server
 <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;">
-We are organised a competition and [workshop at CVPR 2019](cvpr2019). Four participating teams presented their approaches and results. More details and links to their papers can be found on the [workshop website](cvpr2019). 
+We are organised a competition and [workshop at CVPR 2019](cvpr2019). Four participating teams presented their approaches and results. More details and links to their papers can be found on the [workshop website](cvpr2019).
 
 
 

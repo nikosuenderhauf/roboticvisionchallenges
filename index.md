@@ -32,7 +32,7 @@ Our [probabilistic object detection challenge](object-detection) requires partic
 We made a *validation* and *test-dev* dataset with a public leaderboard available for ongoing evaluation of probabilistic object detection approaches. In addition, a *test-challenge* dataset and evaluation server will become available when we are organising a public competition. The first of those competitions was organised for a [workshop at CVPR 2019](cvpr2019), and the next will be available around Setember 2019, leading up to IROS.
 
 
-<img src="assets/img/logo-IROS-2019.png" width="200" style="float:left; margin-right:10px;"> We organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details.
+<img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;"> We organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details.
 
 To **participate** and for more information around the dataset [read more here ...](object-detection).
 
