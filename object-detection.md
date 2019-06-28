@@ -25,14 +25,19 @@ We maintain two evaluation servers on [Codalab](http://www.codalab.org):
    * A [**competition evaluation**](https://competitions.codalab.org/competitions/20940) server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
 
+### Ongoing Evaluation Server
+   We maintain an ongoing [evaluation server](https://competitions.codalab.org/competitions/21727) with a public leaderboard that can be used year-round to benchmark your approach for probabilistic object detection.
+
+
+### IROS 2019 Competition Evaluation Server
+ <img src="assets/img/logo-IROS-2019.png" width="200" style="float:left; margin-right:10px;">
+ We organise a workshop at IROS 2019 (8 November) on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details. We expect the evaluation server to re-open in September 2019 and close in late October. In the meanwhile, you can use our [ongoing evaluation](https://competitions.codalab.org/competitions/21727) server along with the available validation and test-dev datasets to improve your algorithms.
+
 
 ### CVPR 2019 Competition Evaluation Server
 <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;">
-We are organising a competition and [workshop at CVPR 2019](cvpr2019) in June. Participants can present their results and we will announce the challenge winners, distributing $5000 AUD in prize money (sponsored by the [Australian Centre for Robotic Vision](http://www.roboticvision.org)). Please head to our [competition evaluation server](https://competitions.codalab.org/competitions/20940) to participate, download the training/validation and test dataset, and find out further information around the dataset and submission format.
+We are organised a competition and [workshop at CVPR 2019](cvpr2019). Four participating teams presented their approaches and results. More details and links to their papers can be found on the [workshop website](cvpr2019). 
 
-
-### Ongoing Evaluation Server
-We maintain an ongoing [evaluation server](https://competitions.codalab.org/competitions/21727) with a public leaderboard that can be used year-round to benchmark your approach for probabilistic object detection.
 
 
 ## How to Cite

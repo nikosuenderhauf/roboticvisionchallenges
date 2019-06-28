@@ -29,11 +29,14 @@ https://competitions.codalab.org/competitions/20940 -->
 
 Our [probabilistic object detection challenge](object-detection) requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
 
-A *test-challenge* and *validation* dataset are already available along with evaluation servers. A separate *test-dev* dataset along with a public leaderboard will be made available soon and can then be used for ongoing evaluation of probabilistic object detection approaches.
+We made a *validation* and *test-dev* dataset with a public leaderboard available for ongoing evaluation of probabilistic object detection approaches. In addition, a *test-challenge* dataset and evaluation server will become available when we are organising a public competition. The first of those competitions was organised for a [workshop at CVPR 2019](cvpr2019), and the next will be available around Setember 2019, leading up to IROS.
 
-<img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> We organise a competition and [workshop at CVPR 2019](cvpr2019) in June 2019, where the best submissions will be presented and $5000 AUD in prize money will be available to the winning entries.
+
+<img src="assets/img/logo-IROS-2019.png" width="200" style="float:left; margin-right:10px;"> We organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details.
 
 To **participate** and for more information around the dataset [read more here ...](object-detection).
+
+<!-- <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> We organised a first competition and [workshop at CVPR 2019](cvpr2019) in June 2019, where the best submissions will be presented and $5000 AUD in prize money will be available to the winning entries. -->
 
 
 
