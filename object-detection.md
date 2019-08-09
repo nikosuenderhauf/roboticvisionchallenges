@@ -47,9 +47,10 @@ When using the dataset and evaluation in your publications, please cite:
 ```latex
 @article{hall2018probability,
   title={Probabilistic Object Detection: Definition and Evaluation},
-  author={Hall, David and Dayoub, Feras and Skinner, John and Corke, Peter and Carneiro, Gustavo and Angelova, Anelia and S{\"u}nderhauf, Niko},
+  author={Hall, David and Dayoub, Feras and Skinner, John, and Zhang, Haoyang and Miller, Dimity and Corke, Peter and Carneiro, Gustavo and Angelova, Anelia and S{\"u}nderhauf, Niko},
   journal={arXiv preprint arXiv:1811.10800},
   year={2018}
+}
 }
 ```
 
