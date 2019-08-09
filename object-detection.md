@@ -20,7 +20,8 @@ We invite anyone who is interested in object detection and appreciates a good ch
 
 
 ## Challenge Participation and Presentation of Results
-We maintain two evaluation servers on [Codalab](http://www.codalab.org):
+
+We maintain two evaluation servers on [Codalab](http://www.codalab.org): **Following a major crash on codalab, our challenge servers are unavailable until September 2019.**
    * An [**ongoing evaluation**](https://competitions.codalab.org/competitions/21727) server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset.
    * A [**competition evaluation**](https://competitions.codalab.org/competitions/20940) server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
@@ -73,7 +74,7 @@ Failing to do so can lead to catastrophic consequences from over or under-confid
 ## Datasets
 For this challenge, we use realistic simulated data from a domestic robot scenario. The dataset contains scenes with cluttered surfaces, and day and night lighting conditions. We simulate domestic service robots of multiple sizes, resulting in sequences with three different camera heights above the ground plane.
 
-
+**Following a major crash on codalab, our challenge servers are unavailable until September 2019.**
 
 We maintain three dataset splits:
    * The **test-challenge** dataset is used on the [competition evaluation server](https://competitions.codalab.org/competitions/20940) and only available during open competition phases. It contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB.
