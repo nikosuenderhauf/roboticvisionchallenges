@@ -22,17 +22,18 @@ We invite anyone who is interested in object detection and appreciates a good ch
 ## Challenge Participation and Presentation of Results
 
 We maintain two evaluation servers on [Codalab](http://www.codalab.org): **Following a major crash on codalab, our challenge servers are unavailable until September 2019.**
-   * An [**ongoing evaluation**](https://competitions.codalab.org/competitions/21727) server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset.
-   * A [**competition evaluation**](https://competitions.codalab.org/competitions/20940) server that will only be available before competitions we organise at major computer vision and robotics conferences.
+   * An [**ongoing evaluation**](https://competitions.codalab.org/competitions/20595) server with a public leaderboard that remains open year-round and can be used to benchmark your algorithm, e.g. for paper submissions. It contains a validation dataset, and a test-dev dataset.
+   * A [**competition evaluation**](https://competitions.codalab.org/competitions/20597) server that will only be available before competitions we organise at major computer vision and robotics conferences.
 
 
 ### Ongoing Evaluation Server
-   We maintain an ongoing [evaluation server](https://competitions.codalab.org/competitions/21727) with a public leaderboard that can be used year-round to benchmark your approach for probabilistic object detection.
+   We maintain an ongoing [evaluation server](https://competitions.codalab.org/competitions/20595) with a public leaderboard that can be used year-round to benchmark your approach for probabilistic object detection.
 
 
 ### IROS 2019 Competition Evaluation Server
  <img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;">
- We organise a workshop at IROS 2019 (8 November) on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details. We expect the evaluation server to re-open in September 2019 and close in late October. In the meanwhile, you can use our [ongoing evaluation](https://competitions.codalab.org/competitions/21727) server along with the available validation and test-dev datasets to improve your algorithms.
+ We organise a workshop at IROS 2019 (8 November) on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). The [competition evaluation server](https://competitions.codalab.org/competitions/20597) is now open for submissions until 10 October.
+ You can also use our [ongoing evaluation](https://competitions.codalab.org/competitions/20595) server along with the available validation and test-dev datasets to improve your algorithms.
 
 
 ### CVPR 2019 Competition Evaluation Server
@@ -50,7 +51,6 @@ When using the dataset and evaluation in your publications, please cite:
   author={Hall, David and Dayoub, Feras and Skinner, John, and Zhang, Haoyang and Miller, Dimity and Corke, Peter and Carneiro, Gustavo and Angelova, Anelia and S{\"u}nderhauf, Niko},
   journal={arXiv preprint arXiv:1811.10800},
   year={2018}
-}
 }
 ```
 
@@ -78,9 +78,9 @@ For this challenge, we use realistic simulated data from a domestic robot scenar
 **Following a major crash on codalab, our challenge servers are unavailable until September 2019.**
 
 We maintain three dataset splits:
-   * The **test-challenge** dataset is used on the [competition evaluation server](https://competitions.codalab.org/competitions/20940) and only available during open competition phases. It contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB.
-   * The **test-dev** dataset is available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/21727) and can be used to benchmark approaches year-round, e.g. for use in publications. It contains 123,000 images from 18 indoor scenes (different to the test-challenge), day and night lighting variations, and different camera heights above ground simulating different household robots.
-   * The **validation** dataset is available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/21727), and contains over 21,000 images in 4 simulated indoor video sequences, approximately 8.8GB. Ground truth information is available for this dataset. It uses the same classes as the test datasets, but different *object models*.
+   * The **test-challenge** dataset is used on the [competition evaluation server](https://competitions.codalab.org/competitions/20597) and only available during open competition phases. It contains over 56,000 images from 18 simulated indoor video sequences, approximately 24GB.
+   * The **test-dev** dataset is available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/20595) and can be used to benchmark approaches year-round, e.g. for use in publications. It contains 123,000 images from 18 indoor scenes (different to the test-challenge), day and night lighting variations, and different camera heights above ground simulating different household robots.
+   * The **validation** dataset is available on the [ongoing evaluation server](https://competitions.codalab.org/competitions/20595), and contains over 21,000 images in 4 simulated indoor video sequences, approximately 8.8GB. Ground truth information is available for this dataset. It uses the same classes as the test datasets, but different *object models*.
 
 
 
