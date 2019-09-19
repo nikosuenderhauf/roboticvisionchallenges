@@ -136,3 +136,64 @@ objects to detections.
 Our [experimental evaluation](https://arxiv.org/abs/1811.10800) shows that PDQ rewards detections with accurate spatial probabilities and explicitly evaluates label probability to determine detection quality. PDQ aims to encourage the
 development of new object detection approaches that provide
 meaningful spatial and label uncertainty measures.
+
+
+# Organisers, Support, and Acknowledgements
+
+**Stay in touch** and follow us on Twitter for news and announcements: [@robVisChallenge](https://twitter.com/robVisChallenge).
+
+<div class="portrait_row">
+<img class="col fith portrait" src="assets/img/niko.jpg"/>  
+<img class="col fith portrait" src="assets/img/feras.jpg"/>
+<img class="col fith portrait" src="assets/img/david.jpg"/>
+<img class="col fith portrait" src="assets/img/john.jpg"/>
+<img class="col fith portrait" src="assets/img/haoyang.jpg"/>
+</div>
+<div class="col fith caption">
+      <a href="http://www.nikosuenderhauf.info">Niko Sünderhauf</a><br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      <a href="http://www.ferasdayoub.com">Feras Dayoub</a> <br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      <a href="https://sites.google.com/view/davidhallcv/home">David Hall</a> <br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      John Skinner <br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      <a href="https://staff.qut.edu.au/staff/haoyang.zhang.acrv">Haoyang Zhang</a> <br>Queensland University of Technology
+</div>
+
+<br><br>
+
+The Robotic Vision Challenges organisers are with the [Australian Centre for Robotic Vision](http://www.roboticvision.org) at Queensland University of Technology (QUT) in Brisbane, Australia.
+
+<div style="display:flex; justify-content:center;">
+<a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
+<img  style="margin-left:100px;height:120px;" src="assets/img/qut-logo.png">
+</div>
+
+
+This project was supported by a **Google Faculty Research Award** to Niko Sünderhauf in 2018.
+<div style="display:flex; justify-content:center;">
+<img style="margin-left:20px; height:100px" src="assets/img/google-logo.png">
+</div>
+
+## Supporters
+We thank the following supporters for their valuable input and engaging discussions.
+<div class="portrait_row">
+<img class="col fith portrait" src="assets/img/gustavo.jpg"/>  
+<img class="col fith portrait" src="assets/img/anelia.png"/>  
+<img class="col fith portrait" src="assets/img/anton.jpg"/>  
+</div>
+<div class="col fith caption">
+      <a href="https://cs.adelaide.edu.au/~carneiro/">Gustavo Carneiro</a> <br> University of Adelaide
+</div>
+<div class="col fith caption">
+      <a href="https://ai.google/research/people/AneliaAngelova">Anelia Angelova</a> <br> Google Brain
+</div>
+<div class="col fith caption">
+      <a href="https://cs.adelaide.edu.au/users/hengel/">Anton van den Hengel</a> <br> University of Adelaide
+</div>
+<br><br>
