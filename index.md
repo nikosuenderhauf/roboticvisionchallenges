@@ -127,14 +127,31 @@ We believe that by posing a new robotic vision challenge to the research communi
       <a href="https://staff.qut.edu.au/staff/haoyang.zhang.acrv">Haoyang Zhang</a> <br>Queensland University of Technology
 </div>
 
+<div class="portrait_row">
+<img class="col fith portrait" src="assets/img/ben.jpg"/>
+<img class="col fith portrait" src="assets/img/suman.jpg"/>
+</div>
+<div class="col fith caption">
+      Ben Talbot <br>Queensland University of Technology
+</div>
+<div class="col fith caption">
+      Suman Bista <br>Queensland University of Technology
+</div>
+
 <br><br>
 
-The Robotic Vision Challenges organisers are with the [Australian Centre for Robotic Vision](http://www.roboticvision.org).
-This project is supported by a **Google Faculty Research Award** to Niko Sünderhauf in 2018.
+The Robotic Vision Challenges organisers are with the [Australian Centre for Robotic Vision](http://www.roboticvision.org) at Queensland University of Technology (QUT) in Brisbane, Australia.
 
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
-<img style="margin-left:100px; height:100px" src="assets/img/google-logo.png">
+<img  style="margin-left:100px;height:120px;" src="assets/img/qut-logo.png">
+</div>
+
+
+
+This project was supported by a **Google Faculty Research Award** to Niko Sünderhauf in 2018.
+<div style="display:flex; justify-content:center;">
+<img style="margin-left:20px; height:100px" src="assets/img/google-logo.png">
 </div>
 
 ## Supporters
