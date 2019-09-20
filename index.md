@@ -67,6 +67,10 @@ The **winners** of the competition will be announced at our .
 
 # News
 
+  **September 2019** Two papers got accepted for publication: [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800) will appear in the IEEE Winter Conference on Applications of Computer Vision (WACV) in March 2020. The [Nature Machine Intelligence](https://www.nature.com/natmachintell/) journal published our article [A probabilistic challenge for object detection](https://rdcu.be/bQR84) in its September issue.
+
+  **August 2019** We opened our [evaluation servers](https://competitions.codalab.org/competitions/20597) again for the 2nd [Probabilistic Object Detection Challenge](object-detection). Submissions are welcome until 8 October, and the results will be presented at our [workshop at IROS](iros2019) in November.
+
   **May 2019:** We will organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). Stay tuned for further details.
 
   **January 2019:** We are happy to announce that CVPR 2019 is hosting our [workshop](cvpr2019). Participants of our Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940) will present their approaches and results, and we will announce the competition winners at the workshop.
