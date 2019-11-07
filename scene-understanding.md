@@ -9,7 +9,7 @@ layout: default
 ## Overview
 The Robotic Vision Scene Understanding Challenge evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
 
-**We are working towards presenting this new challenge in November 2018 during our [workshop](iros2019) at IROS.**
+<!-- **We are working towards presenting this new challenge in November 2018 during our [workshop](iros2019) at IROS.** -->
 
 Key features of the challenge:
  * The evaluation is run on our evaluation server, and participants will upload their dockerized code to our server. This allows us to keep the test set secret.
@@ -18,6 +18,10 @@ Key features of the challenge:
  * The best teams are invited to execute their code on a real robot in our lab. This robot can be controlled using the same API as the simulated robot.
 
 There will be two tasks for the Scene Understanding Challenge: *Object-based Semantic Mapping*, and *Spot the Difference*.
+
+**Watch the video below to learn more:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOGzJ6QVVYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Task 1: Object-based Semantic Mapping
 
