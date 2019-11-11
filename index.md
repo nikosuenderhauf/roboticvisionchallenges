@@ -28,32 +28,31 @@ https://competitions.codalab.org/competitions/20940 -->
 # First Challenge - Probabilistic Object Detection
 
 Our [probabilistic object detection challenge](object-detection) requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
+To **participate** and for more information around the dataset [read more here.](object-detection).
 
-We made a *validation* and *test-dev* dataset with a public leaderboard available for ongoing evaluation of probabilistic object detection approaches. In addition, a *test-challenge* dataset and evaluation server will become available when we are organising a public competition. The first of those competitions was organised for a [workshop at CVPR 2019](cvpr2019), and the next will be available around Setember 2019, leading up to IROS.
+<center>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 
-<img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;"> We organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details.
+<!--
+We made a *validation* and *test-dev* dataset with a public leaderboard available for ongoing evaluation of probabilistic object detection approaches. In addition, a *test-challenge* dataset and evaluation server will become available when we are organising a public competition. The first of those competitions was organised for a [workshop at CVPR 2019](cvpr2019). The submission server remains open for future competitions. -->
 
-To **participate** and for more information around the dataset [read more here ...](object-detection).
+
+<!-- <img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;"> We organise a workshop at IROS 2019 on the topic of [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). For that workshop, we will run a second round of the [probabilistic object detection challenge](object-detection). Stay tuned for further details.
+ -->
 
 <!-- <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> We organised a first competition and [workshop at CVPR 2019](cvpr2019) in June 2019, where the best submissions will be presented and $5000 AUD in prize money will be available to the winning entries. -->
 
 
+# Second Challenge - Robotic Scene Understanding
+The Robotic Vision [Scene Understanding Challenge](scene-understanding) evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
+There will be two tasks in this challenge: *Object-based Semantic Mapping / SLAM*, and *Scene Change Detection*.
 
-<!-- We provide a new dataset (split into *test-challenge*, *test-dev*, and *validation*), evaluation measure, and evaluation servers.
-
- We organise a competition and [workshop at CVPR 2019](cvpr2019) in Long Beach in June 2019
-
-The **winners** of the competition will be announced at our .
-
-
-
-, please go to our [Codalab page](https://competitions.codalab.org/competitions/20940). -->
-
-
+Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below.
 
 <center>
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOGzJ6QVVYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <!-- <center>
@@ -66,6 +65,8 @@ The **winners** of the competition will be announced at our .
  We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
 
 # News
+
+  **November 2019** We organised a workshop at IROS 2019 on the [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). There we presented our second challenge, the [Robotic Vision Scene Understanding](scene-understanding) challenge for the first time.
 
   **September 2019** Two papers got accepted for publication: [Probabilistic Object Detection: Definition and Evaluation](https://arxiv.org/abs/1811.10800) will appear in the IEEE Winter Conference on Applications of Computer Vision (WACV) in March 2020. The [Nature Machine Intelligence](https://www.nature.com/natmachintell/) journal published our article [A probabilistic challenge for object detection](https://rdcu.be/bQR84) in its September issue.
 
@@ -86,7 +87,7 @@ The **winners** of the competition will be announced at our .
 
 # Coming Soon
 
-Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2019.
+Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2020.
 
 
 # Motivation

@@ -8,7 +8,7 @@ layout: default
 
 ## Overview
 The Robotic Vision Scene Understanding Challenge evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
-
+There will be two tasks in this challenge: *Object-based Semantic Mapping / SLAM*, and *Scene Change Detection*.
 <!-- **We are working towards presenting this new challenge in November 2018 during our [workshop](iros2019) at IROS.** -->
 
 Key features of the challenge:
@@ -17,20 +17,21 @@ Key features of the challenge:
  * We will provide a simple API to interface the simulated robot, following the OpenAI Gym API.
  * The best teams are invited to execute their code on a real robot in our lab. This robot can be controlled using the same API as the simulated robot.
 
-There will be two tasks for the Scene Understanding Challenge: *Object-based Semantic Mapping*, and *Spot the Difference*.
+
 
 **Watch the video below to learn more:**
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xOGzJ6QVVYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
-
-## Task 1: Object-based Semantic Mapping
+## Task 1: Object-based Semantic Mapping / SLAM
 
 For this task we evaluate how well participants can build a map of the environment that contains all objects of interest. The evaluation metric rewards accurate pose, shape, and object semantics.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
 
 
-## Task 2: Spot the Difference
+## Task 2: Scene Change Detection
 The goal of this task is to identify all objects that disappeared, appeared, or moved in an environment from one day to another. The robot can explore the environment on both days, but has to spot all the differences.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
