@@ -4,12 +4,14 @@ layout: default
 
 # Workshops
 
-<!-- ## Upcoming
+## Upcoming
+<a href="icra2020.html"><img src="assets/img/icra20logo.png" width="200" style="float:left; margin-right:10px;"></a>
+Our workshop on [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) will discuss the current progress, applications, and limitations of robotic scene understanding and semantic simultaneous localization and mapping (SLAM). We are motivated by the quickly accelerating appearance new research outputs that investigate how classical SLAM techniques and deep-learning based visual object detection or segmentation can be combined in innovative ways, and used to support scene understanding, navigation, and manipulation.
 
 
 
 
-## Past -->
+## Past
 
 
 <a href="iros2019.html"><img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;"></a>

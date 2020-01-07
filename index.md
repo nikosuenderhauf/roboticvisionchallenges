@@ -49,10 +49,11 @@ We made a *validation* and *test-dev* dataset with a public leaderboard availabl
 The Robotic Vision [Scene Understanding Challenge](scene-understanding) evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
 There will be two tasks in this challenge: *Object-based Semantic Mapping / SLAM*, and *Scene Change Detection*.
 
-Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below.
+<a href="icra2020.html"><img src="assets/img/icra20logo.png" width="200" style="float:left; margin-right:10px;"></a>
+We will present the results of the challenge at our workshop on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) at ICRA 2020 in Paris, France. Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xOGzJ6QVVYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQPkV29KFvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <!-- <center>
@@ -65,6 +66,7 @@ Stay tuned for further information, we expect the challenge server to come onlin
  We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
 
 # News
+  **January 2020** Our workshop proposal on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) for ICRA 2020 in Paris, France was accepted.
 
   **November 2019** We organised a workshop at IROS 2019 on the [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). There we presented our second challenge, the [Robotic Vision Scene Understanding](scene-understanding) challenge for the first time.
 

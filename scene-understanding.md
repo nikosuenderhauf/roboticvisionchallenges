@@ -25,7 +25,6 @@ Key features of the challenge:
 </center>
 
 
-
 ## Task 1: Object-based Semantic Mapping / SLAM
 
 For this task we evaluate how well participants can build a map of the environment that contains all objects of interest. The evaluation metric rewards accurate pose, shape, and object semantics.
