@@ -21,8 +21,10 @@ Key features of the challenge:
 
 **Watch the video below to learn more:**
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xOGzJ6QVVYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQPkV29KFvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+
 
 ## Task 1: Object-based Semantic Mapping / SLAM
 
