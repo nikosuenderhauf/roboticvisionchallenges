@@ -24,15 +24,28 @@ Key features of the challenge:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jQPkV29KFvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+## Challenge Participation
 
-## Task 1: Object-based Semantic Mapping / SLAM
+### Competition Server
+Out 2020 competition is held in conjunction with our ICRA 2020 Workshop ["Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations"](https://nikosuenderhauf.github.io/roboticvisionchallenges/icra2020) where a total of **$2,500 USD** will be awarded to high-performing competitors.
+
+**NOTE** Details to be updated due to the COVID-19 Pandemic.
+
+Participants are directed to our challenge server on EvalAI for more details on how to compete (T.B.A.)
+
+### BenchBot Framework
+Our Scene Understanding Challenges are all operated using our new BenchBot framework which handles simulation, robot movement, challenge rule enforcement, and evaluation.
+
+To check out the framework and get started on our scene understanding problems, check out the github page at [benchbot.org](https://github.com/RoboticVisionOrg/benchbot).
+
+## Challenge Task 1: Object-based Semantic Mapping / SLAM
 
 For this task we evaluate how well participants can build a map of the environment that contains all objects of interest. The evaluation metric rewards accurate pose, shape, and object semantics.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
 
 
-## Task 2: Scene Change Detection
+## Challenge Task 2: Scene Change Detection
 The goal of this task is to identify all objects that disappeared, appeared, or moved in an environment from one day to another. The robot can explore the environment on both days, but has to spot all the differences.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
