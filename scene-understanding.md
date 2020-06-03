@@ -27,25 +27,32 @@ Key features of the challenge:
 ## Challenge Participation
 
 ### Competition Server
-Out 2020 competition is held in conjunction with our ICRA 2020 Workshop ["Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations"](https://nikosuenderhauf.github.io/roboticvisionchallenges/icra2020) where a total of **$2,500 USD** will be awarded to high-performing competitors.
 
-**NOTE** Details to be updated due to the COVID-19 Pandemic.
+Our challenge **is currently live**, and available [here on the EvalAI website](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview). Please create an account, sign in, & click the "Participate" tab to enter our challenge. Full details on how to participate, the available software framework, and submission requirements are provided on the site.
 
-Participants are directed to our challenge server on EvalAI for more details on how to compete (T.B.A.)
+The challenge is open until the 1st of September 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors.
 
-### BenchBot Framework
-Our Scene Understanding Challenges are all operated using our new BenchBot framework which handles simulation, robot movement, challenge rule enforcement, and evaluation.
+Our 2020 competition is also held in conjunction with our ICRA 2020 Workshop ["Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations"](https://nikosuenderhauf.github.io/roboticvisionchallenges/icra2020). 
+
+**Note:** Workshop details will be updated due to the COVID-19 Pandemic.
+
+
+### The BenchBot Software stack
+Our Scene Understanding Challenges all use our new software stack called BenchBot. The BenchBot software stack provides user-friendly interfaces (helper scripts & a [simple API]() manages simulation , robot movement, challenge rule enforcement, and evaluation.
 
 To check out the framework and get started on our scene understanding problems, check out the github page at [benchbot.org](https://github.com/RoboticVisionOrg/benchbot).
 
-## Challenge Task 1: Object-based Semantic Mapping / SLAM
+## The Challenge Tasks
+
+### Task 1: Object-based Semantic Mapping / SLAM
 
 For this task we evaluate how well participants can build a map of the environment that contains all objects of interest. The evaluation metric rewards accurate pose, shape, and object semantics.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
 
 
-## Challenge Task 2: Scene Change Detection
+### Task 2: Scene Change Detection
+
 The goal of this task is to identify all objects that disappeared, appeared, or moved in an environment from one day to another. The robot can explore the environment on both days, but has to spot all the differences.
 
 This task can be done in one of two modes (Active or Passive) and two Streams (with or without groundtruth camera pose). In Active mode, the user can control the robot's motion to explore the environment. In Passive mode, the user has no control over the robot. In both modes, the user code has access to the data from the robot's RGB-D camera.
