@@ -15,8 +15,9 @@ author:
   url:        http://www.roboticvisionchallenge.org
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
 
 #Others
 markdown: kramdown
+github: [metadata]
