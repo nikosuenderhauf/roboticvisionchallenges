@@ -154,10 +154,10 @@ This task can be done in one of two modes (Active or Passive) and two Streams (w
 
 <br><br>
 
-The Robotic Vision Challenges organisers are with the [Australian Centre for Robotic Vision](http://www.roboticvision.org) and the Queensland University of Technology (QUT) Centre for Robotics in Brisbane, Australia.
+The Robotic Vision Challenges organisers are with the [Australian Centre for Robotic Vision](http://www.roboticvision.org) and the Queensland University of Technology (QUT) [Centre for Robotics](https://research.qut.edu.au/qcr/) in Brisbane, Australia.
 
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
-<img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg">
+<a href="https://research.qut.edu.au/qcr/"><img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg"></a>
 <!-- <img style="margin-left:100px; height:100px" src="assets/img/google-logo.png"> -->
 </div>
