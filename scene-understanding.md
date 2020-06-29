@@ -12,6 +12,7 @@ layout: default
 </center>
 
 ## News
+ * **29 June 2020** Nvidia kindly supports the Scene Understanding Challenge by providing 2 GPUs as prizes for the best teams. Thank you Nvidia!
  * **8 June 2020:** We released our challenge and opened it for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 1 September 2020). **$,2500 USD** in cash prizes are available to the best teams.
 
 ## Overview
