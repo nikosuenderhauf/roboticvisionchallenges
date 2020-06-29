@@ -159,6 +159,9 @@ The Robotic Vision Challenges organisers are with the [Australian Centre for Rob
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
 <a href="https://research.qut.edu.au/qcr/"><img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg"></a>
-<img  style="margin-left:100px;height:120px;" src="assets/img/NVLogo_2D.png">
 <!-- <img style="margin-left:100px; height:100px" src="assets/img/google-logo.png"> -->
+</div>
+<br>
+<div style="display:flex; justify-content:center;">
+<img  style="margin-left:100px;height:120px;" src="assets/img/NVLogo_2D.png">
 </div>
