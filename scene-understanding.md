@@ -62,7 +62,7 @@ Please see the [BenchBot API documentation](https://github.com/roboticvisionorg/
 
 Our challenge **is currently live** (since June 2020), and available [here on the EvalAI website](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview). Please create an account, sign in, & click the "Participate" tab to enter our challenge. Full details on how to participate, the available software framework, and submission requirements are provided on the site.
 
-The challenge is open until the 1st of September 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors.
+The challenge is open until the 1st of September 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors, along with **2 GPUs** sponsored by Nvidia.
 
 Participating in the Semantic Scene Understanding Challenge is as simple as the 4 steps below. The BenchBot software stack is designed from the ground up to eliminate as many obstacles as possible, so you can focus on what matters: solving semantic scene understanding problems. A collection of resources, documentation, and examples are also available within the BenchBot ecosystem to support your experience while participating in the challenge.
 
@@ -159,5 +159,6 @@ The Robotic Vision Challenges organisers are with the [Australian Centre for Rob
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
 <a href="https://research.qut.edu.au/qcr/"><img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg"></a>
+<img  style="margin-left:100px;height:120px;" src="assets/img/NVLogo_2D.png">
 <!-- <img style="margin-left:100px; height:100px" src="assets/img/google-logo.png"> -->
 </div>
