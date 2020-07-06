@@ -32,7 +32,7 @@ We maintain two evaluation servers on [Codalab](http://www.codalab.org):
 
 ### ECCV 2020 Competition Evaluation Server
 <img src="assets/img/eccv20logo.png" width="200" style="float:left; margin-right:10px;">
-We are currently running the 3rd iteration of the competition in association with our ECCV 2020 workshop [Beyond mAP: Rassessing the Evaluation of Object Detectors](eccv2020). Cash prizes will be awarded to high competitors, along with the opportunity to present their work at our workshop. The server for the competition is currently running [here](https://competitions.codalab.org/competitions/20597) and final submissions are due on the 14th of July.
+We are currently running the 3rd iteration of the competition in association with our ECCV 2020 workshop [Beyond mAP: Rassessing the Evaluation of Object Detectors](eccv2020). Cash prizes will be awarded to high competitors, along with the opportunity to present their work at our workshop. The server for the competition is currently running [here](https://competitions.codalab.org/competitions/20597) and final submissions are due on the **5th of August**.
 
 ### IROS 2019 Competition Evaluation Server
  <img src="assets/img/logo-iros-2019.png" width="200" style="float:left; margin-right:10px;">
@@ -179,7 +179,7 @@ The Robotic Vision Challenges organisers are with the [Australian Centre for Rob
 
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
-<img  style="margin-left:100px;height:120px;" src="assets/img/qut-logo.png">
+<img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg">
 </div>
 
 
