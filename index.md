@@ -25,10 +25,27 @@ https://competitions.codalab.org/competitions/20940 -->
 
 <!-- ## Active Challenges -->
 
+# New Challenge - Robotic Scene Understanding
+The Robotic Vision [Scene Understanding Challenge](scene-understanding) evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
+There will be two tasks in this challenge: **Object-based Semantic Mapping / SLAM**, and **Scene Change Detection**.
+
+This challenge is now open for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 1 September 2020). **$,2500 USD** in cash prizes (thanks to the [Australian Centre for Robotic Vision](http://www.roboticvision.org) and **2 GPUs** (thanks to Nvidia) are available to the best teams.
+
+<!-- We will present the results of the challenge at our workshop on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) at ICRA 2020 in Paris, France. Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below. -->
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQPkV29KFvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
+
 # First Challenge - Probabilistic Object Detection
 
 Our [probabilistic object detection challenge](object-detection) requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
-To **participate** and for more information around the dataset [read more here.](object-detection).
+To **participate** and for more information around the dataset [read more here](object-detection).
+
+<a href="eccv2020.html"><img src="assets/img/eccv20logo.png" width="120" style="float:left; margin-right:10px;"></a>
+We are currently running the 3rd iteration of the competition in association with our ECCV 2020 workshop [Beyond mAP: Rassessing the Evaluation of Object Detectors](eccv2020). Cash prizes will be awarded to high competitors, along with the opportunity to present their work at our workshop. The server for the competition is currently running [here](https://competitions.codalab.org/competitions/20597) and final submissions are due on the **5th of August**.
 
 <center>
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,16 +62,7 @@ We made a *validation* and *test-dev* dataset with a public leaderboard availabl
 <!-- <img src="assets/img/CVPR19logo.jpg" width="200" style="float:left; margin-right:10px;"> We organised a first competition and [workshop at CVPR 2019](cvpr2019) in June 2019, where the best submissions will be presented and $5000 AUD in prize money will be available to the winning entries. -->
 
 
-# Second Challenge - Robotic Scene Understanding
-The Robotic Vision [Scene Understanding Challenge](scene-understanding) evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
-There will be two tasks in this challenge: *Object-based Semantic Mapping / SLAM*, and *Scene Change Detection*.
 
-<a href="icra2020.html"><img src="assets/img/icra20logo.png" width="200" style="float:left; margin-right:10px;"></a>
-We will present the results of the challenge at our workshop on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) at ICRA 2020 in Paris, France. Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below.
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jQPkV29KFvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
 
 <!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TZbEManAy-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -66,6 +74,12 @@ We will present the results of the challenge at our workshop on the topic of [Sc
  We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
 
 # News
+
+  **29 June 2020** Nvidia kindly supports the Scene Understanding Challenge by providing 2 GPUs as prizes for the best teams. Thank you Nvidia!
+
+  **8 June 2020:** We released the [Scene Understanding Challenge](scene-understanding) and opened it for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 1 September 2020). **$,2500 USD** in cash prizes are available to the best teams.
+
+
   **January 2020** Our workshop proposal on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) for ICRA 2020 in Paris, France was accepted.
 
   **November 2019** We organised a workshop at IROS 2019 on the [The Importance of Uncertainty in Deep Learning for Robotics](iros2019). There we presented our second challenge, the [Robotic Vision Scene Understanding](scene-understanding) challenge for the first time.
@@ -87,9 +101,9 @@ We will present the results of the challenge at our workshop on the topic of [Sc
 
 
 
-# Coming Soon
+<!-- # Coming Soon
 
-Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2020.
+Stay tuned for more challenges, focussing on active vision, and active and continuous learning in 2020. -->
 
 
 # Motivation
@@ -151,15 +165,17 @@ The Robotic Vision Challenges organisers are with the [Australian Centre for Rob
 
 <div style="display:flex; justify-content:center;">
 <a href="http://www.roboticvision.org"><img style="height:120px;" src="assets/img/acrv.png"></a>
-<img  style="margin-left:100px;height:120px;" src="assets/img/qut-logo.png">
+<a href="https://research.qut.edu.au/qcr/"><img  style="margin-left:100px;height:120px;" src="assets/img/qcr-logo.jpg"></a>
 </div>
 
 
 
-This project was supported by a **Google Faculty Research Award** to Niko Sünderhauf in 2018.
+This project was supported by a **Google Faculty Research Award** to Niko Sünderhauf in 2018. Further support  is provided by Nvidia.
 <div style="display:flex; justify-content:center;">
 <img style="margin-left:20px; height:100px" src="assets/img/google-logo.png">
+<img style="margin-left:100px;height:120px;" src="assets/img/NVLogo_2D.png">
 </div>
+
 
 ## Supporters
 We thank the following supporters for their valuable input and engaging discussions.
