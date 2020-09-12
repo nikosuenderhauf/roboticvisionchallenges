@@ -12,6 +12,7 @@ layout: default
 </center>
 
 ## News
+ * **1 September** We extended the deadline of our challenge to **October 2nd 2020**
  * **29 July 2020** Nvidia confirms 1 Titan RTX and up to 5 Jetson Nanos (1 per team member) for two winning teams. 
  * **29 June 2020** Nvidia kindly supports the Scene Understanding Challenge by providing 2 GPUs as prizes for the best teams. Thank you Nvidia!
  * **8 June 2020:** We released our challenge and opened it for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 1 September 2020). **$,2500 USD** in cash prizes are available to the best teams.
@@ -64,7 +65,7 @@ Please see the [BenchBot API documentation](https://github.com/roboticvisionorg/
 
 Our challenge **is currently live** (since June 2020), and available [here on the EvalAI website](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview). Please create an account, sign in, & click the "Participate" tab to enter our challenge. Full details on how to participate, the available software framework, and submission requirements are provided on the site.
 
-The challenge is open until the 1st of September 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors. The two best performing teams also receive a **Titan RTX GPU** and up to **5 Jetson Nanos** (1 per team member) provided by our sponsors Nvidia.
+The challenge is open until the 2nd of October 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors. The two best performing teams also receive a **Titan RTX GPU** and up to **5 Jetson Nanos** (1 per team member) provided by our sponsors Nvidia.
 
 Participating in the Semantic Scene Understanding Challenge is as simple as the 4 steps below. The BenchBot software stack is designed from the ground up to eliminate as many obstacles as possible, so you can focus on what matters: solving semantic scene understanding problems. A collection of resources, documentation, and examples are also available within the BenchBot ecosystem to support your experience while participating in the challenge.
 
