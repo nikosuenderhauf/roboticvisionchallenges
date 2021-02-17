@@ -96,6 +96,10 @@ Teams are allowed to participate across all challenges and win multiple prizes.
 3. Semantic SLAM (AGT) - $500 USD
 4. Semantic SLAM (PGT) - $300 USD
 
+## Workshop Details
+Our Robotic Vision Scene Understanding Challenge is currently part of the [CVPR 2021 Embodied AI workshop](https://embodied-ai.org/).
+Please check out the workshop website for more details and for information about 9 other robotic vision/embodied AI challenges being run.
+
 ## Questions?
 
 Talk to us on [Slack](https://app.slack.com/client/T012ZHR4CQG) or contact us via email at `contact@roboticvisionchallenge.org`.
