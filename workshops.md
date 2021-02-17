@@ -6,7 +6,7 @@ layout: default
 
 ## Upcoming
 <a href="https://embodied-ai.org/"><img src="assets/img/cvpr2021logo.jpg" width="200" style="float:left; margin-right:10px;"></a>
-Our latest Robotic Vision Scene Understanding Challenge launches at the 2021 **Embodied AI Workshop** at the Conference on Computer Vision and Pattern Recognition (CVPR), in coordination with eight other embodied AI challenges supported by 15 academic and research organizations. The joint launch of these challenges offers the embodied AI/robotics research community an unprecedented opportunity to move toward a common framework for the field, converging around a unified set of tasks, simulation platforms, and 3D assets. The organizers will collectively share results across all these challenges at CVPR in June, providing a unique viewpoint on the state of embodied AI research and new directions for the subfield.
+Our latest Robotic Vision Scene Understanding Challenge launches at the 2021 [**Embodied AI Workshop**](https://embodied-ai.org/) at the Conference on Computer Vision and Pattern Recognition (CVPR), in coordination with eight other embodied AI challenges supported by 15 academic and research organizations. The joint launch of these challenges offers the embodied AI/robotics research community an unprecedented opportunity to move toward a common framework for the field, converging around a unified set of tasks, simulation platforms, and 3D assets. The organizers will collectively share results across all these challenges at CVPR in June, providing a unique viewpoint on the state of embodied AI research and new directions for the subfield.
 
 ## Past
 <a href="icra2020.html"><img src="assets/img/icra20logo.png" width="200" style="float:left; margin-right:10px;"></a>
