@@ -29,7 +29,9 @@ https://competitions.codalab.org/competitions/20940 -->
 The Robotic Vision [Scene Understanding Challenge](scene-understanding) evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
 There will be two tasks in this challenge: **Object-based Semantic Mapping / SLAM**, and **Scene Change Detection**.
 
-This challenge is now open for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 2nd October 2020). **$,2500 USD** in cash prizes (thanks to the [Australian Centre for Robotic Vision](http://www.roboticvision.org) and **2 GPUs** (thanks to Nvidia) are available to the best teams.
+<a href="https://embodied-ai.org/"><img src="assets/img/cvpr2021logo.jpg" width="120" style="float:left; margin-right:10px;"></a>
+This challenge is now open for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 7th May 2020). **$,2500 USD** in cash prizes (thanks to the [Australian Centre for Robotic Vision](http://www.roboticvision.org) and **2 GPUs** (thanks to Nvidia) are available to the best teams.
+This challenge is being run in association with the CVPR2021 workshop for [Embodied AI Challenges](https://embodied-ai.org/).
 
 <!-- We will present the results of the challenge at our workshop on the topic of [Scene Understanding and Semantic SLAM: Progress, Applications, and Limitations](icra2020) at ICRA 2020 in Paris, France. Stay tuned for further information, we expect the challenge server to come online in **Feburary 2020**. In the meantime, you can find more information [here](scene-understanding) and in the video below. -->
 
@@ -39,13 +41,13 @@ This challenge is now open for [participation](https://evalai.cloudcv.org/web/ch
 
 
 
-# First Challenge - Probabilistic Object Detection
+# First Challenge - Probabilistic Object Detection (PrOD)
 
 Our [probabilistic object detection challenge](object-detection) requires participants to **detect objects in video** data from high-fidelity simulation. As a novelty, our evaluation metric rewards accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes.
 To **participate** and for more information around the dataset [read more here](object-detection).
 
-<a href="eccv2020.html"><img src="assets/img/eccv20logo.png" width="120" style="float:left; margin-right:10px;"></a>
-We are currently running the 3rd iteration of the competition in association with our ECCV 2020 workshop [Beyond mAP: Rassessing the Evaluation of Object Detectors](eccv2020). Cash prizes will be awarded to high competitors, along with the opportunity to present their work at our workshop. The server for the competition is currently running [here](https://competitions.codalab.org/competitions/20597) and final submissions are due on the **5th of August**.
+There is no currently active PrOD challenge with prize money available but we do have a continuous evaluation server with its own test set available to promote research in the field of probabilistic object detection.
+The continuous evaluation server is running [here](https://competitions.codalab.org/competitions/20595).
 
 <center>
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/6TR97EKUlaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -74,6 +76,7 @@ We made a *validation* and *test-dev* dataset with a public leaderboard availabl
  We released our first Robotic Vision [object detection challenge](https://competitions.codalab.org/competitions/20940)! Participants are tasked with **object detection** on a **video** stream, where each detection must provide accurate estimates of **spatial and semantic uncertainty** using probabilistic bounding boxes. Participants are evaluated using a new  measure which will reward accurate estimations of spatial and semantic uncertainty. -->
 
 # News
+  **17 February 2021** We launch the second iteration of the [Scene Understanding Challenge](scene-understanding) in association with the [CVPR2021 Embodied AI workshop](https://embodied-ai.org/) (deadline 7th May 2021). **$,2500 USD** in cash and GPU prizes are available to the best teams.
 
   **29 June 2020** Nvidia kindly supports the Scene Understanding Challenge by providing 2 GPUs as prizes for the best teams. Thank you Nvidia!
 
