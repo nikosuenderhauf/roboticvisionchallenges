@@ -70,7 +70,7 @@ Please see the [BenchBot API documentation](https://github.com/roboticvisionorg/
 <img src="assets/img/v_benchbot_batch_short.gif">
 </center>
 
-The current challenge **is currently live** (since February 2021), and available [here on the EvalAI website](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview). Please create an account, sign in, & click the "Participate" tab to enter our challenge. Full details on how to participate, the available software framework, and submission requirements are provided on the site.
+The current challenge **is currently live** (since February 2021), and available [here on the EvalAI website](https://eval.ai/web/challenges/challenge-page/807/overview). Please create an account, sign in, & click the "Participate" tab to enter our challenge. Full details on how to participate, the available software framework, and submission requirements are provided on the site.
 
 The challenge is open until the 2nd of October 2020, and a total of **$2,500 USD** will be awarded to high-performing competitors. The two best performing teams also receive a **Titan RTX GPU** and up to **5 Jetson Nanos** (1 per team member) provided by our sponsors Nvidia. A full breakdown of the prizes available is outlined in [Challenge Prizes](#challenge-prizes).
 
