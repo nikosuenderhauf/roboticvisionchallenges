@@ -95,6 +95,7 @@ Teams are allowed to participate across all challenges and win multiple prizes.
 2. Semantic SLAM (ADR) - $800 USD, 1 Titan RTX GPU, up to 5 Jetson Nano GPUs
 3. Semantic SLAM (AGT) - $500 USD
 4. Semantic SLAM (PGT) - $300 USD
+
 ## Questions?
 
 Talk to us on [Slack](https://app.slack.com/client/T012ZHR4CQG) or contact us via email at `contact@roboticvisionchallenge.org`.
