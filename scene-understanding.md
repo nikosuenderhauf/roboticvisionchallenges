@@ -24,15 +24,15 @@ The challenge consists of two distinct tasks: **Object-based Semantic SLAM**, an
 
 
 Key features of this challenge include:
-
-* [BenchBot](https://github.com/roboticvisionorg/benchbot), a complete software stack for running semantic scene understanding algorithms
+* Prizes including **$2500 USD, Titan RTX GPUs, and Jetson Nano GPUs**
+* [BenchBot](https://github.com/qcr/benchbot), a complete software stack for running robotic systems
 * Running algorithms in realistic 3D simulation, and on real robots, with only a few lines of Python code
-* The [BenchBot API](https://github.com/roboticvisionorg/benchbot_api), which allows simple interfacing with robots and supports OpenAI Gym-style approaches and a simple object-oriented Agent approach
+* The [BenchBot API](https://github.com/qcr/benchbot_api), which allows simple interfacing with robots while supporting both OpenAI Gym-style and simple object-oriented Agent approaches
 * Easy-to-use scripts for running simulated environments, executing code on a simulated robot, evaluating semantic scene understanding results, and automating code execution across multiple environments
-* $2,500 USD in cash prizes to be split amongst the best participants
 * Opportunities for the best teams to execute their code on a real robot in our lab, which uses the same API as the simulated robot
 * Use of the [Nvidia Isaac SDK](https://developer.nvidia.com/isaac-sdk) for interfacing with, and simulation of, high fidelity 3D environments
 
+[**Submit your results to EvalAI**](https://eval.ai/web/challenges/challenge-page/807/overview)
 
 **Watch the video below to learn more!**
 <center>
@@ -77,13 +77,13 @@ The challenge is open until the 2nd of October 2020, and a total of **$2,500 USD
 Participating in the Semantic Scene Understanding Challenge is as simple as the 4 steps below. The BenchBot software stack is designed from the ground up to eliminate as many obstacles as possible, so you can focus on what matters: solving semantic scene understanding problems. A collection of resources, documentation, and examples are also available within the BenchBot ecosystem to support your experience while participating in the challenge.
 
 To participate in our challenge:
- 1. Download & install the [BenchBot software stack](https://github.com/roboticvisionorg/benchbot). Use the [examples](https://github.com/roboticvisionorg/benchbot_examples) to dive straight in & start playing.
- 2. Choose a task to start working on a solution for, using `benchbot_run  --list-tasks` to list supported tasks
- 3. Start with the development environments "miniroom" and "house" which include ground-truth maps to aid in your algorithm development
- 4. Develop a solution using the` benchbot_run`, `benchbot_submit`, & `benchbot_eval` scripts
- 5. Create some results for your solution in the challenge environments using:
-`benchbot_batch  -t <your_task>  -E <benchbot_root>/batches/challenge/<your_task>  -z  -n <your_submission_cmd>`
- 6. Use the Submit tab at the top of our [EvalAI page](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) to submit your results for evaluation
+1. Download & install the BenchBot software stack. Use the examples to dive straight in & start playing (benchbot_run  --list-examples)
+2. Choose a task to start working on a solution for, using `benchbot_run  --list-tasks` to list supported tasks
+3. Start with the development environments "miniroom" and "house" which include ground-truth maps to aid in your algorithm development
+4. Develop a solution using the `benchbot_run`, `benchbot_submit`, & `benchbot_eval` scripts
+5. Create some results for your solution in the challenge environments using:
+`benchbot_batch  -r carter  -t <your_task>  -E <batch_name>  -z  -n <your_submission_cmd>`
+6. Use the Submit tab at the top of our [EvalAI page](https://eval.ai/web/challenges/challenge-page/807/overview) to submit your results for evaluation
 
 Each participant is also required to write a short paper (approx 4 pages) outlining the technique which was used in the challenge. Please submit papers to (TBA). These papers will be made available to the general public through our challenge website.
 
