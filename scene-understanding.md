@@ -13,10 +13,6 @@ layout: default
 
 ## News
  * **17 February 2021** Challenge released as part of [CVPR 2021 Embodied AI workshop](https://embodied-ai.org/)
- * **1 September 2020** We extended the deadline of our challenge to **October 2nd 2020**
- * **29 July 2020** Nvidia confirms 1 Titan RTX and up to 5 Jetson Nanos (1 per team member) for two winning teams. 
- * **29 June 2020** Nvidia kindly supports the Scene Understanding Challenge by providing 2 GPUs as prizes for the best teams. Thank you Nvidia!
- * **8 June 2020:** We released our challenge and opened it for [participation](https://evalai.cloudcv.org/web/challenges/challenge-page/625/overview) (deadline 1 September 2020). **$,2500 USD** in cash prizes are available to the best teams.
 
 ## Overview
 The Robotic Vision Scene Understanding Challenge evaluates how well a robotic vision system can understand the semantic and geometric aspects of its environment.
